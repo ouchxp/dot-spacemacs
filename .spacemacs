@@ -351,7 +351,7 @@ you should place your code here."
   (global-set-key (kbd "<home>") 'beginning-of-line)
   (global-set-key (kbd "<end>") 'end-of-line)
   (delete-selection-mode 1)
-  (ensime-startup-notification t)
+  (setq ensime-startup-notification nil)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
